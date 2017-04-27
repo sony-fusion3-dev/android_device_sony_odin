@@ -88,11 +88,11 @@
         <item>50</item>
         <item>100</item>
         <item>150</item>
-        <item>200</item>
-        <item>300</item>
-        <item>400</item>
-        <item>600</item>
-        <item>900</item>
+        <item>320</item>
+        <item>480</item>
+        <item>960</item>
+        <item>1240</item>
+        <item>1520</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -109,12 +109,12 @@
         <item>190</item>  <!--  25 -  50 -->
         <item>195</item>  <!--  50 - 100 -->
         <item>200</item>  <!-- 100 - 150 -->
-        <item>205</item>  <!-- 150 - 200 -->
-        <item>215</item>  <!-- 200 - 300 -->
-        <item>225</item>  <!-- 300 - 400 -->
-        <item>235</item>  <!-- 400 - 600 -->
-        <item>250</item>  <!-- 600 - 900 -->
-        <item>255</item>  <!-- 900+ -->
+        <item>205</item>  <!-- 150 - 320 -->
+        <item>215</item>  <!-- 320 - 480 -->
+        <item>225</item>  <!-- 480 - 960 -->
+        <item>235</item>  <!-- 960 - 1240 -->
+        <item>250</item>  <!-- 1240 - 1520 -->
+        <item>255</item>  <!-- 1520+ -->
     </integer-array>
 
     <!-- We don't have button backlight. -->

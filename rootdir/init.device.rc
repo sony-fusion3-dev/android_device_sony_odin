@@ -28,7 +28,7 @@ on boot
     write /sys/class/leds/lm3533-lcd-bl-2/brightness 127
 
     # Vibrator
-    chown system system /sys/devices/i2c-2/2-0049/intensity
+    chown system system /sys/class/timed_output/vibrator/level
 
     # LM356x/cameralight
     chown system camera /sys/devices/i2c-0/0-0053/torch_enable
